@@ -5,10 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
     <link rel="stylesheet" href="style.css" />
+	   <style>
+        table,tr,td,th {
+            
+            border: 1px solid black;
+			text-align:center;
+			
+        }
+    </style>
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
+    <table style="
+        
+            width: 100%;
+            height: 100%; ">
+        
+		<tr > 
+			<td>
+				<table style="width:100%" >
+				<th colspan="2">Nested Table 2 </th>
+				<tr style="font-weight:bold"	>
+					<td>Column 1</td>
+					<td>Column 2</td>
+					<tr>
+						<td>abc</td>
+						<td>def</td>
+				</table>
+			</td>
+		    <td>
+				<table style ="width:100%">
+					<tr>
+				<th >
+				Nested Table 1 </th>
+					</tr>
+				<tr>
+					<td>
+					<ul>
+						<li>
+							list Item</li>
+						<li>list Item</li>
+						<li>list Item</li>
+					</ul>
+					</td>
+				</tr>
+					
+				</table>
+			</td>
+		</tr>
+		<tr >
+			<td>
+			<table style ="width:100%">
+				<th colspan="2">Nested Table 3 </th>
+				<tr 	>
+					<td><a href="url">Nested Table</a></td>
+					<td>Demo Continued</td>
+				</tr>
+				</table>	
+			</td>
+			<td>
+				<table style ="width:100%">
+					<tr>
+						<th>Nested Table 4</th>
+					</tr>
+					<tr>
+						<td>
+						HTML</tr>
+			</td>
+				</table>
+			</td>
+		</tr>
     </table>
   </body>
 </html>
